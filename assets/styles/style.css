@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+body{
+    font-family: Rubik Doodle Shadow;
+    background-color: rgba(88, 132, 214, 0.24);
+}
+h1{
+    margin: 10px;
+}
+p{
+    color: rgb(153, 2, 72);
+    font-weight: bold;
+    margin-left: 10px;
+}
+div{
+    display: flex;
+    flex-direction: row;
+}
+.temperature{
+    margin: 10px;
+}
+.min_max{
+    border: 2px dashed rgb(102, 5, 53);
+    margin: 10px;
+    max-width: 20vw;
+}

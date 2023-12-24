@@ -1,11 +1,11 @@
 "use strict"
 
-const cities = ['Москва', 'Санкт-Петербург', 'Нижний новгород', 'Казань', 'Сочи'];
+const cities = ['Москва', 'Санкт-Петербург', 'Нижний Новгород', 'Казань', 'Сочи'];
 let citiesTemperature = [];
 
 
 for(let i = 0; i < cities.length; i++){
-    let temperature = prompt(`Введите температуру в городе ${i}`);
+    let temperature = prompt(`Введите температуру в городе ${[cities[i]]}`);
     citiesTemperature.push(temperature);
 }
 
